@@ -1,0 +1,52 @@
+#tools {
+    background: pink;
+    height: 100%;
+    width:100px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+}
+#content{
+    
+   display:flex;
+   height:500px;
+
+}
+#painter{
+    height: 100%;
+    width: 300px;
+    background: rgb(224, 224, 213);
+}
+.imagestools{
+    margin-top: 50px;
+
+    
+}
+.imagecontainer{
+    grid-auto-flow: row dense;
+    display: flex;
+
+}
+.savedpic{
+    width:120px;
+    height:160px;
+    align-items:left ;
+
+}
+.coloringpic{
+    max-width:100% ;
+    max-height:100% ;
+}
+body{
+    margin:0px;
+
+}
+.about{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pages{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
